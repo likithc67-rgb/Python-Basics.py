@@ -1,0 +1,55 @@
+#3 × 3 Stars
+
+# for i in range(3):
+#     for j in range(3):
+#         print("*", end=" ")
+#     print()
+        
+        
+        
+#4 × 5 Rectangle
+
+
+# for i in range(4):
+#     for j in range(5):
+#         print("*", end=" ")
+#     print()
+
+
+#Number Pattern
+
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(j,end=" ")
+#     print()
+
+
+# Number Pattern
+
+# for i in range(1,4):
+#     print(i)
+
+
+# Square Number Pattern
+
+# for i in range(1,4):
+#      for j in range(1,4):
+#          print(i,end=" ")
+#      print()
+
+
+# Increasing Pattern
+
+# for i in range(1,5):
+#     for j in range(1,6):
+#         print(i,j,end=" ")
+#     print()
+
+
+
+#Multiplication Tables
+
+for i in range(1,11):
+    for j in range(1,3):
+        print(i * j,end=" ")
+    print()
