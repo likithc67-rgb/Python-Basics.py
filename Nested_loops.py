@@ -100,11 +100,10 @@
 # Skip 5
 
 
-# for i in range(1,6):
-#     if i == 3:
+# for i in range(1, 11):
+#     if i == 5:
 #         continue
-# print(i)
-
+#     print(i)
 
 #Find Number
 
@@ -121,9 +120,10 @@
 # numbers = [10, 15, 22, 33, 40, 51, 60]
 
 # for num in numbers:
-#     if num %2 == 0:
-#         print(num)
+#     if num % 2 != 0:
 #         continue
+
+#     print(num)
 
 
 #Stop at Negative Number
@@ -132,10 +132,10 @@
 # numbers = [10, 20, 30, -5, 40, 50]
 
 # for num in numbers:
-#     if num <= 0:
-#         print("Negative number Found:",num)
+#     if num < 0:
 #         break
 
+#     print(num)
 
 #Skip Failed Students
 
@@ -144,9 +144,9 @@
 
 # for mark in marks:
 #     if mark < 35:
-#         print(mark)
 #         continue
 
+#     print(mark)
 
 #Search Student
 
@@ -171,15 +171,14 @@
 
 #Skip Multiples of 3
 
-for i in range(1,21):
-    if i % 3 == 0:
-        continue
+# for i in range(1,21):
+#     if i % 3 == 0:
+#         continue
    
-    print(i)
+#     print(i)
 
 
 #AI/ML Data Cleaning
-
 
 
 # data = [10, 20, -1, 30, -1, 40, 50]
@@ -187,6 +186,7 @@ for i in range(1,21):
 # for num in data:
 #     if num <= 0:
 #         continue
+
 #     print(num)
        
     
