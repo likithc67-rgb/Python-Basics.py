@@ -131,11 +131,11 @@
 #DEFAULT PATAMETER USING FUNCTION
 
 
-def power(number, exponent=2):
-    return number ** exponent
+# def power(number, exponent=2):
+#     return number ** exponent
 
-print(power(6))
-print(power(2,3))
+# print(power(6))
+# print(power(2,3))
 
     
 

@@ -451,47 +451,47 @@
 #Data Cleaning & Filtering
 
 
-data = [10, -1, 25, 50, 0, 75, -1, 90, 35, 100, -5]
+# data = [10, -1, 25, 50, 0, 75, -1, 90, 35, 100, -5]
 
-count = 0
-total = 0
-highest = data[0]
-lowest = data[0]
-Count = 0
+# count = 0
+# total = 0
+# highest = data[0]
+# lowest = data[0]
+# Count = 0
 
 
-for num in data:
-    if num < 0:
-        data.remove(num)
-print("Vaild values are:",data)
+# for num in data:
+#     if num < 0:
+#         data.remove(num)
+# print("Vaild values are:",data)
 
-for num in data:
-    if num > 0:
-        count = count + 1
+# for num in data:
+#     if num > 0:
+#         count = count + 1
     
-print("Count of Valid numbers:",count)
+# print("Count of Valid numbers:",count)
 
-for num in data:
-    if num > 0:
-        total = total + num
-print("Total number is :",total)
+# for num in data:
+#     if num > 0:
+#         total = total + num
+# print("Total number is :",total)
 
-for num in data:
-    if num > highest:
-        highest = num
-print("Highest number is:",highest)
+# for num in data:
+#     if num > highest:
+#         highest = num
+# print("Highest number is:",highest)
 
-for num in data:
-    if num < lowest:
-        lowest = num
+# for num in data:
+#     if num < lowest:
+#         lowest = num
         
-print("Lowest values is:",lowest)
+# print("Lowest values is:",lowest)
 
-for num in data:
-    if num < 50:
-        Count = Count + 1
+# for num in data:
+#     if num < 50:
+#         Count = Count + 1
         
-print("Greater Than 50:",Count)
+# print("Greater Than 50:",Count)
         
     
 

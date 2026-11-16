@@ -161,12 +161,12 @@
 #First Number Greater Than 50
 
 
-# numbers = [10, 25, 45, 67, 80, 90]
+""" numbers = [10, 25, 45, 67, 80, 90]
 
-# for num in numbers:
-#     if num > 50:
-#         print("The number is found:",num)
-#         break
+for num in numbers:
+    if num > 50:
+       print("The number is found:",num)
+        break"""
 
 
 #Skip Multiples of 3
